@@ -8,7 +8,7 @@ crash.log
 
 # Ansible
 *.retry
-inventory/hosts.ini
+ansible/inventory/hosts.ini
 group_vars/*/vault_real.yml
 
 # General
