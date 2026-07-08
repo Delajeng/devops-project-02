@@ -1,0 +1,18 @@
+# Terraform
+*.tfstate
+*.tfstate.*
+*.tfvars
+.terraform/
+.terraform.lock.hcl
+crash.log
+
+# Ansible
+*.retry
+inventory/hosts.ini
+group_vars/*/vault_real.yml
+
+# General
+.env
+*.pem
+id_rsa
+id_ed25519
